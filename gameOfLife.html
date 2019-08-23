@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Life</title>
+
+    <link rel="stylesheet" href="gameOfLife.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="gameOfLife.js"></script>
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col-3"></div>
+
+        <div class="col-6">
+
+            <h4 style="margin-top: 10px"> Click a cell to toggle its state (black means alive cell, white means death cell). </h4>
+
+            <table id="mainTable" class="main-table">
+                <tbody>
+                </tbody>
+            </table>
+
+            <br>
+
+            <button class="btn btn-dark" id="btnNextStep"> Next Step </button>
+            <button class="btn btn-success" id="btnStart"> Start </button>
+            <button class="btn btn-danger" id="btnStop" disabled> Stop </button>
+            <button class="btn btn-warning" id="btnClear"> Clear </button>
+
+            <div style="margin-left: 20px; display: inline-block">
+                <label>Time Interval (ms):</label>
+                <input id="inputTimeInterval" type="number" class="form-control" style="max-width: 50%; display: inline-block"> 
+            </div>
+            
+
+        </div>
+
+        <div class="col-3"></div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+.main-table{
+    width: 800px; 
+    height: 800px;
+    margin-top: 25px;
+}
+
+.cell{
+    border: 1px solid black;
+}
+
+.death-cell{
+    background-color: white;
+}
+
+.alive-cell{
+    background-color: black;
+}
