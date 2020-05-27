@@ -1,6 +1,21 @@
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+.main-header{
+    margin-top: 10px;
+    text-align: center;
+}
+
 .main-table{
-    width: 800px; 
-    height: 800px;
+    width: 80%;
+    margin-left: 10%;
+    /* height: 100%; */ /* height will be set in the js according to width value */
     margin-top: 25px;
 }
 
@@ -14,4 +29,20 @@
 
 .alive-cell{
     background-color: black;
+}
+
+.control-area{
+    margin-top: 70%;
+}
+
+.buttons-area{
+    text-align: center;
+}
+
+.interval-input-area{
+    text-align: center;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block
 }

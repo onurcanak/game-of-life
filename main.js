@@ -3,6 +3,12 @@ var timerInterval = 1000;       // interval in ms
 var matrixLength = 40;          // number of cells in rows/columns in the square matrix
 
 $(document).ready(function(){
+    
+    $('#mainTable').height($('#mainTable').width())
+
+    $(window).resize(function(){
+        $('#mainTable').height($('#mainTable').width())
+    })
 
     fillBlankPage();
 
